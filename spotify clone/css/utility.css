@@ -1,0 +1,73 @@
+
+/* This applies to the <html> element */
+html {
+    /* Use dark color scheme for the scroll bar */
+    color-scheme: dark;
+  }
+  
+  /* This applies to the scroll bar */
+  ::-webkit-scrollbar {
+    /* Set the width and height of the scroll bar */
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* This applies to the track (background) of the scroll bar */
+  ::-webkit-scrollbar-track {
+    /* Set the background color of the track */
+    background-color: #333333;
+  }
+  
+  /* This applies to the thumb (foreground) of the scroll bar */
+  ::-webkit-scrollbar-thumb {
+    /* Set the background color of the thumb */
+    background-color: #666666;
+    /* Add some rounded corners */
+    border-radius: 6px;
+    /* Add some margins to make the thumb smaller than the track */
+    margin: 2px;
+  }
+  
+
+
+
+
+.brdr{
+    border: 2px solid red;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.item-center
+{
+    align-items: center;
+}
+.bg-dgray{
+    background-color:#121212;
+    color: white;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter:  invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+.space{
+    gap: 14px;
+}
